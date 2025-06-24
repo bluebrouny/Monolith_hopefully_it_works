@@ -1,0 +1,35 @@
+- type: vessel
+  id: McChicken
+  parent: BaseVessel
+  name: SV McChicken
+  description: For those who enjoy ungodly ammounts of calories, now made on the go!.
+  price: 12500
+  category: Small
+  group: Scrap
+  shuttlePath: /Maps/_Mono/Shuttles/Scrap/mcchicken.yml
+  guidebookPage: Null
+  class:
+  - Scrapyard
+  - Civilian
+  engine:
+  - Uranium
+
+- type: gameMap
+  id: McChilly
+  mapName: 'SV McChicken'
+  mapPath: /Maps/_Mono/Shuttles/Scrap/mcchicken.yml
+  minPlayers: 0
+  stations:
+    McChicken:
+      stationProto: StandardFrontierVessel
+      components:
+        - type: StationNameSetup
+          mapNameTemplate: 'McChicken CIV{1}'
+          nameGenerator:
+            !type:NanotrasenNameGenerator
+            prefixCreator: '14'
+        - type: StationJobs
+          availableJobs:
+            Contractor: [ 0, 0 ]
+            Pilot: [ 0, 0 ]
+            Mercenary: [ 0, 0 ]
