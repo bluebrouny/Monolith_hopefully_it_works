@@ -15,7 +15,7 @@
   - Uranium
 
 - type: gameMap
-  id: McChilly
+  id: McChicken
   mapName: 'SV McChicken'
   mapPath: /Maps/_Mono/Shuttles/Scrap/mcchicken.yml
   minPlayers: 0
