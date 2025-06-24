@@ -4,8 +4,8 @@ meta:
   engineVersion: 247.2.0
   forkId: ""
   forkVersion: ""
-  time: 06/23/2025 02:03:56
-  entityCount: 1743
+  time: 06/24/2025 00:55:54
+  entityCount: 1753
 maps: []
 grids:
 - 1
@@ -466,9 +466,20 @@ entities:
             134: 6,2
         - node:
             color: '#FFFFFFFF'
+            id: WoodTrimThinEndN
+          decals:
+            293: -9,16
+        - node:
+            color: '#FFFFFFFF'
+            id: WoodTrimThinEndS
+          decals:
+            294: -9,8
+        - node:
+            color: '#FFFFFFFF'
             id: WoodTrimThinEndW
           decals:
             275: 9,2
+            282: -12,12
         - node:
             color: '#FFFFFFFF'
             id: WoodTrimThinInnerNw
@@ -476,9 +487,27 @@ entities:
             277: 11,2
         - node:
             color: '#FFFFFFFF'
+            id: WoodTrimThinLineE
+          decals:
+            295: -9,9
+            296: -9,10
+            297: -9,12
+            298: -9,13
+            299: -9,14
+            300: -9,15
+        - node:
+            color: '#FFFFFFFF'
             id: WoodTrimThinLineN
           decals:
             276: 10,2
+            279: -10,12
+            280: -11,12
+        - node:
+            color: '#FFFFFFFF'
+            id: WoodTrimThinLineS
+          decals:
+            283: -11,12
+            284: -10,12
         - node:
             angle: 1.5707963267948966 rad
             color: '#FFFFFFFF'
@@ -487,7 +516,6 @@ entities:
             171: -10,9
             172: -10,10
             173: -10,11
-            174: -10,12
             175: -10,13
             176: -10,14
             177: -10,15
@@ -509,6 +537,12 @@ entities:
             272: 11,5
             273: 11,4
             274: 11,3
+            285: -9,13
+            286: -9,14
+            287: -9,15
+            289: -9,11
+            290: -9,10
+            291: -9,9
         - node:
             angle: 3.141592653589793 rad
             color: '#FFFFFFFF'
@@ -893,6 +927,19 @@ entities:
       scale: 0
       radarColor: '#00DEFEFF'
     - type: CircularShieldRadar
+  - uid: 1744
+    components:
+    - type: MetaData
+    - type: Transform
+      pos: 0.50038815,9.069886
+      parent: 1
+    - type: RadarBlip
+      enabled: False
+      visibleFromOtherGrids: True
+      shape: Ring
+      scale: 0
+      radarColor: '#00DEFEFF'
+    - type: CircularShieldRadar
 - proto: AirAlarm
   entities:
   - uid: 941
@@ -999,7 +1046,7 @@ entities:
       pos: 5.5,2.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -9559.657
+      secondsUntilStateChange: -10156.166
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -1012,7 +1059,7 @@ entities:
       pos: 10.5,7.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -5153.4395
+      secondsUntilStateChange: -5749.9487
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -1023,7 +1070,7 @@ entities:
       pos: 11.5,7.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -5153.1396
+      secondsUntilStateChange: -5749.649
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -1078,7 +1125,7 @@ entities:
       pos: 8.5,1.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -15211.585
+      secondsUntilStateChange: -15808.094
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -1102,7 +1149,7 @@ entities:
       pos: -1.5,2.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -1201.1989
+      secondsUntilStateChange: -1797.7079
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -1122,7 +1169,7 @@ entities:
       pos: -8.5,0.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -6794.717
+      secondsUntilStateChange: -7391.226
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -4738,25 +4785,10 @@ entities:
     - type: Transform
       pos: -9.5,13.5
       parent: 1
-  - uid: 1596
-    components:
-    - type: Transform
-      pos: -9.5,12.5
-      parent: 1
   - uid: 1597
     components:
     - type: Transform
       pos: -10.5,15.5
-      parent: 1
-  - uid: 1598
-    components:
-    - type: Transform
-      pos: -11.5,12.5
-      parent: 1
-  - uid: 1599
-    components:
-    - type: Transform
-      pos: -10.5,12.5
       parent: 1
   - uid: 1600
     components:
@@ -8225,6 +8257,28 @@ entities:
       rot: 3.141592653589793 rad
       pos: -4.5,-0.5
       parent: 1
+  - uid: 1596
+    components:
+    - type: Transform
+      pos: -6.5,6.5
+      parent: 1
+  - uid: 1599
+    components:
+    - type: Transform
+      pos: -5.5,5.5
+      parent: 1
+  - uid: 1751
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 7.5,6.5
+      parent: 1
+  - uid: 1752
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 6.5,5.5
+      parent: 1
 - proto: GrilleDiagonal
   entities:
   - uid: 46
@@ -8288,6 +8342,42 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -6.5,1.5
+      parent: 1
+  - uid: 1745
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -7.5,6.5
+      parent: 1
+  - uid: 1746
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -6.5,5.5
+      parent: 1
+  - uid: 1747
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -5.5,4.5
+      parent: 1
+  - uid: 1748
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 6.5,4.5
+      parent: 1
+  - uid: 1749
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 7.5,5.5
+      parent: 1
+  - uid: 1750
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: 8.5,6.5
       parent: 1
 - proto: GunneryServerLow
   entities:
@@ -8539,6 +8629,13 @@ entities:
     components:
     - type: Transform
       pos: -11.5,3.5
+      parent: 1
+- proto: NFHolopadShip
+  entities:
+  - uid: 1753
+    components:
+    - type: Transform
+      pos: 0.5,24.5
       parent: 1
 - proto: OreProcessor
   entities:
@@ -9930,6 +10027,11 @@ entities:
     components:
     - type: Transform
       pos: 12.5,4.5
+      parent: 1
+  - uid: 1598
+    components:
+    - type: Transform
+      pos: -11.5,12.5
       parent: 1
 - proto: TeslaCoilFlatpack
   entities:
