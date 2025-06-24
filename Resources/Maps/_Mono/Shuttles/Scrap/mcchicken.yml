@@ -4,8 +4,8 @@ meta:
   engineVersion: 247.2.0
   forkId: ""
   forkVersion: ""
-  time: 06/24/2025 00:45:22
-  entityCount: 345
+  time: 06/24/2025 02:50:05
+  entityCount: 346
 maps: []
 grids:
 - 1
@@ -514,7 +514,7 @@ entities:
       pos: -0.5,3.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -376.14932
+      secondsUntilStateChange: -451.0517
       state: Opening
     - type: DeviceLinkSource
       lastSignals:
@@ -1171,7 +1171,7 @@ entities:
     paused: true
     components:
     - type: MetaData
-      name: crispy banana clown wig and mask
+      name: crispy crispy banana clown wig and mask
     - type: Transform
       pos: -1.9669328,-2.173611
       parent: 1
@@ -1189,7 +1189,7 @@ entities:
       - BEE9E61E359EFD1083C1019429A9A155
     - type: Appearance
     - type: DeepFried
-      originalName: banana clown wig and mask
+      originalName: crispy banana clown wig and mask
     - type: SolutionContainerManager
       containers:
       - food
@@ -1206,7 +1206,7 @@ entities:
     paused: true
     components:
     - type: MetaData
-      name: crispy banana clown shoes
+      name: crispy crispy banana clown shoes
     - type: Transform
       pos: -1.9981828,-2.7256944
       parent: 1
@@ -1234,7 +1234,7 @@ entities:
       - BEE9E61E359EFD1083C1019429A9A155
     - type: Appearance
     - type: DeepFried
-      originalName: banana clown shoes
+      originalName: crispy banana clown shoes
     missingComponents:
     - Butcherable
 - proto: ClothingUniformJumpsuitClownBanana
@@ -1244,7 +1244,7 @@ entities:
     paused: true
     components:
     - type: MetaData
-      name: crispy banana clown suit
+      name: crispy crispy banana clown suit
     - type: Transform
       pos: -1.9773493,-2.6215277
       parent: 1
@@ -1272,7 +1272,7 @@ entities:
       - BEE9E61E359EFD1083C1019429A9A155
     - type: Appearance
     - type: DeepFried
-      originalName: banana clown suit
+      originalName: crispy banana clown suit
     missingComponents:
     - Butcherable
 - proto: ComputerTabletopRadar
@@ -1322,6 +1322,20 @@ entities:
       powerLoad: 5
     - type: Battery
       startingCharge: 0
+- proto: ComputerWallmountWithdrawBankATM
+  entities:
+  - uid: 346
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -4.5,1.5
+      parent: 1
+    - type: ApcPowerReceiver
+      powerLoad: 5
+    - type: Battery
+      startingCharge: 15.500368
+    - type: ApcPowerReceiverBattery
+      enabled: True
 - proto: DefibrillatorCabinetFilled
   entities:
   - uid: 128
@@ -1370,7 +1384,7 @@ entities:
       pos: 0.5,0.5
       parent: 1
     - type: Door
-      secondsUntilStateChange: -6012.087
+      secondsUntilStateChange: -6086.9893
       state: Opening
 - proto: FenceMetalStraight
   entities:
@@ -1985,7 +1999,7 @@ entities:
     paused: true
     components:
     - type: MetaData
-      name: crispy plant clippers
+      name: crispy crispy plant clippers
     - type: Transform
       pos: 1.8751776,1.7951982
       parent: 1
@@ -2001,7 +2015,7 @@ entities:
       - BEE9E61E359EFD1083C1019429A9A155
     - type: Appearance
     - type: DeepFried
-      originalName: plant clippers
+      originalName: crispy plant clippers
 - proto: HydroponicsToolMiniHoe
   entities:
   - uid: 118
@@ -2009,7 +2023,7 @@ entities:
     paused: true
     components:
     - type: MetaData
-      name: crispy mini hoe
+      name: crispy crispy mini hoe
     - type: Transform
       pos: 1.8126776,1.8889482
       parent: 1
@@ -2025,7 +2039,7 @@ entities:
       - BEE9E61E359EFD1083C1019429A9A155
     - type: Appearance
     - type: DeepFried
-      originalName: mini hoe
+      originalName: crispy mini hoe
 - proto: HydroponicsToolSpade
   entities:
   - uid: 334
@@ -2033,12 +2047,12 @@ entities:
     paused: true
     components:
     - type: MetaData
-      name: crispy spade
+      name: crispy crispy spade
     - type: Transform
       pos: 1.8751776,1.7951982
       parent: 1
     - type: MeleeWeapon
-      nextAttack: -17.1165921
+      nextAttack: -17.116592
     - type: EmitSoundOnCollide
       nextSound: -577.4826994
     - type: Forensics
@@ -2049,7 +2063,7 @@ entities:
       - BEE9E61E359EFD1083C1019429A9A155
     - type: Appearance
     - type: DeepFried
-      originalName: spade
+      originalName: crispy spade
 - proto: KitchenAssembler
   entities:
   - uid: 215
@@ -2127,9 +2141,7 @@ entities:
         solution@drink: !type:ContainerSlot
           ent: 343
     - type: VendingMachinePurchase
-      vendingMachine: invalid
       originalPurchasePrice: 100
-      purchaseGrid: invalid
     - type: Forensics
       residues: []
       dnas: []
@@ -2169,7 +2181,7 @@ entities:
     paused: true
     components:
     - type: MetaData
-      name: crispy pen
+      name: crispy crispy pen
     - type: Transform
       pos: 3.695063,5.542266
       parent: 1
@@ -2193,7 +2205,7 @@ entities:
       - BEE9E61E359EFD1083C1019429A9A155
     - type: Appearance
     - type: DeepFried
-      originalName: pen
+      originalName: crispy pen
 - proto: PortableGeneratorSuperPacmanShuttle
   entities:
   - uid: 225
@@ -2843,7 +2855,7 @@ entities:
     paused: true
     components:
     - type: MetaData
-      name: crispy packet of wheat seeds
+      name: crispy crispy packet of wheat seeds
     - type: Transform
       pos: 2.5105944,2.3804562
       parent: 1
@@ -2869,7 +2881,7 @@ entities:
       fingerprints:
       - BEE9E61E359EFD1083C1019429A9A155
     - type: DeepFried
-      originalName: packet of wheat seeds
+      originalName: crispy packet of wheat seeds
     - type: Food
       useSound: !type:SoundCollectionSpecifier
         collection: eating
@@ -2885,7 +2897,7 @@ entities:
     paused: true
     components:
     - type: MetaData
-      name: crispy packet of wheat seeds
+      name: crispy crispy packet of wheat seeds
     - type: Transform
       pos: 4.5219445,2.3804562
       parent: 1
@@ -2911,7 +2923,7 @@ entities:
       fingerprints:
       - BEE9E61E359EFD1083C1019429A9A155
     - type: DeepFried
-      originalName: packet of wheat seeds
+      originalName: crispy packet of wheat seeds
     - type: Food
       useSound: !type:SoundCollectionSpecifier
         collection: eating
@@ -2927,7 +2939,7 @@ entities:
     paused: true
     components:
     - type: MetaData
-      name: crispy packet of wheat seeds
+      name: crispy crispy packet of wheat seeds
     - type: Transform
       pos: 3.2189276,2.4637895
       parent: 1
@@ -2953,7 +2965,7 @@ entities:
       fingerprints:
       - BEE9E61E359EFD1083C1019429A9A155
     - type: DeepFried
-      originalName: packet of wheat seeds
+      originalName: crispy packet of wheat seeds
     - type: Food
       useSound: !type:SoundCollectionSpecifier
         collection: eating
@@ -2975,7 +2987,7 @@ entities:
       lastSignals:
         DoorStatus: True
     - type: Door
-      secondsUntilStateChange: -359.216
+      secondsUntilStateChange: -434.11838
       state: Opening
     - type: Airlock
       autoClose: False
