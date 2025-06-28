@@ -22,7 +22,7 @@
 - type: entity
   parent: DrinkBottlePlasticBaseFull
   id: DrinkRootBearFloatJug
-  name: root bear float jug
+  name: root beer float jug
   description: Root beer, but now with ice cream on top. It truly is the magnum opus of Canadian summertime drinks.
   components:
   - type: SolutionContainerManager
@@ -30,7 +30,7 @@
       drink:
         maxVol: 300
         reagents:
-        - ReagentId: RootBearFloat
+        - ReagentId: RootBeerFloat
           Quantity: 300
   - type: Drink
   - type: Label
