@@ -1,9 +1,9 @@
 - type: vessel
   id: McChicken
   parent: BaseVessel
-  name: SV McChicken
+  name: AES McChicken
   description: For those who enjoy ungodly ammounts of calories, now made on the go!.
-  price: 34000
+  price: 26000
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_Mono/Shuttles/mcchicken.yml
