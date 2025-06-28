@@ -23,8 +23,8 @@
   id: McChicken
   parent: BaseVessel
   name: AES McChicken
-  description: For those who enjoy ungodly ammounts of calories, now made on the go!.
-  price: 26000
+  description: A cheap, fried food ship. For those who enjoy ungodly ammounts of calories, now made on the go!.
+  price: 28500
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_Mono/Shuttles/mcchicken.yml
