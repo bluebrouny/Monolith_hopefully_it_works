@@ -3,21 +3,21 @@
   parent: BaseVessel
   name: SV McChicken
   description: For those who enjoy ungodly ammounts of calories, now made on the go!.
-  price: 26000
-  category: Small
-  group: Scrap
-  shuttlePath: /Maps/_Mono/Shuttles/Scrap/mcchicken.yml
+  price: 34000
+  category: Medium
+  group: Shipyard
+  shuttlePath: /Maps/_Mono/Shuttles/mcchicken.yml
   guidebookPage: Null
   class:
-  - Scrapyard
   - Civilian
+  - Kitchen
   engine:
   - Uranium
 
 - type: gameMap
   id: McChicken
   mapName: 'SV McChicken'
-  mapPath: /Maps/_Mono/Shuttles/Scrap/mcchicken.yml
+  mapPath: /Maps/_Mono/Shuttles/mcchicken.yml
   minPlayers: 0
   stations:
     McChicken:
