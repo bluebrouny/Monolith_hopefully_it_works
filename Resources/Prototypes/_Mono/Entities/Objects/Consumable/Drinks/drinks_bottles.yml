@@ -2,7 +2,7 @@
   parent: DrinkBottlePlasticBaseFull
   id: DrinkIceCreamJug
   name: ice cream jug
-  description: A jug full of sweet, homemade* ice cream.
+  description: A jug full of sweet, homemade ice cream.
   components:
   - type: SolutionContainerManager
     solutions:
