@@ -4972,3 +4972,73 @@ Entries:
   id: 593
   time: '2025-06-28T18:47:08.0000000+00:00'
   url: https://github.com/Monolith-Station/Monolith/pull/961
+- author: mikusssssss
+  changes:
+    - type: Add
+      message: >-
+        Added a cube of all the species! We at Nanotrasen offer you the ability
+        to make friends with technology! (CONSCIOUSNESS NOT INCLUDED) Find them
+        at your nearest BioFabricator!
+  id: 594
+  time: '2025-06-28T22:54:23.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/919
+- author: starch70
+  changes:
+    - type: Add
+      message: Added MR-8B LWMMG.
+    - type: Add
+      message: Added MR-8C and MR-8B to TSFMC uplink.
+    - type: Add
+      message: Added Scorpion to Rogue shipyard.
+    - type: Tweak
+      message: LMGs now have a slowdown when wielded.
+    - type: Tweak
+      message: MR-8C no longer C3 contra. Now its C2.
+    - type: Tweak
+      message: Serpent is now access restricted to Colonel.
+    - type: Fix
+      message: Fixed Vulture using RSIC IFF prefix instead of RG.
+  id: 595
+  time: '2025-06-29T02:38:02.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1007
+- author: Ark
+  changes:
+    - type: Add
+      message: Ported over radio sound effects from Crescent. Lethal!
+  id: 596
+  time: '2025-06-29T02:43:51.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1008
+- author: Ark
+  changes:
+    - type: Add
+      message: >-
+        Ships are now restricted to ID cards with deed access. You can still
+        grant guest access by allowing others to swipe your unlocked shuttle
+        console, without providing them a copy of your deed.
+  id: 597
+  time: '2025-06-29T02:46:42.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1006
+- author: Redrover1760
+  changes:
+    - type: Tweak
+      message: ruby price adjusted for appraisal
+    - type: Fix
+      message: ghost spawn on ruby removed
+  id: 598
+  time: '2025-06-29T02:47:32.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/1005
+- author: BlueHNT
+  changes:
+    - type: Fix
+      message: Fixed decaf and syndicatetea recipes not being present
+    - type: Tweak
+      message: Updates YorkshireTea location and price
+    - type: Tweak
+      message: Updates SyndieTea price
+    - type: Fix
+      message: Removes liquid from teapot
+    - type: Add
+      message: Adds tea mugs to BaristaVend
+  id: 599
+  time: '2025-06-29T03:15:16.0000000+00:00'
+  url: https://github.com/Monolith-Station/Monolith/pull/975
