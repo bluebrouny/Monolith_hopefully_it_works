@@ -5,3 +5,11 @@
   components:
   - type: Implanter
     implant: UsspTrackingImplant
+
+- type: entity
+  id: RadarImplanter
+  suffix: Radar Implant
+  parent: BaseImplantOnlyImplanter
+  components:
+  - type: Implanter
+    implant: RadarImplant

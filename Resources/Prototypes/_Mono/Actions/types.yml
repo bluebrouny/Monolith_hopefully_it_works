@@ -1,0 +1,10 @@
+type: entity
+id: ImplantRadarAction
+parent: ActionAGhostShowRadar
+name: Activate Radar.
+description: Activates your subdermal radar, it tingles!
+components:
+  - type: InstantAction
+    itemIconStyle: BigAction
+    priority: -20
+    event: !type:ToggleIntrinsicUIEvent { key: enum.RadarConsoleUiKey.Key }

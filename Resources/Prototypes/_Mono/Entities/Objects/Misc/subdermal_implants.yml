@@ -12,3 +12,13 @@
       - Dead
     - type: Rattle
       radioChannel: "Ussp"
+
+- type: entity
+  parent: BaseSubdermalImplant
+  id: RadarImplant
+  name: Radar Implant
+  description: Totally not cancerous subdermal active radar.
+  categories: [ HideSpawnMenu ]
+  components:
+    - type: SubdermalImplant
+      implantAction: ImplantRadarAction
