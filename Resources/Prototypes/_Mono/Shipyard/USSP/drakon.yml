@@ -1,3 +1,9 @@
+# SPDX-FileCopyrightText: 2025 HungryCuban
+# SPDX-FileCopyrightText: 2025 Redrover1760
+# SPDX-FileCopyrightText: 2025 starch
+#
+# SPDX-License-Identifier: AGPL-3.0-or-later
+
 - type: vessel
   id: Drakon
   parent: BaseVesselAntag
@@ -6,11 +12,12 @@
   price: 85290
   category: Medium
   group: Ussp
-  access: USSP
+  access: USSPDrakon
   shuttlePath: /Maps/_Mono/Shuttles/USSP/drakon.yml
   guidebookPage: Null
   class:
   - Pursuit
+  - Corvette
   engine:
   - AME
 
